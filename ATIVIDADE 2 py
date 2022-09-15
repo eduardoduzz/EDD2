@@ -1,0 +1,27 @@
+import math
+
+        print("1-  Raiz 64 : " + str(mathsqrt(64)))
+        a = (math.exp(0.5 * math.log(64)))
+        b = int(math.round(a))
+        print("2-  raiz com exp e log e realint: h " + str(b))
+        print("3-  Raiz com exp e log sem realint: h " + str(math.exp(0.5 * math.log(64))))
+        a1 = math.sin(45 * math.pi / 180 + 1.0E-4) * 10000 * 0.1
+        print("4-  Formatar " + str(math.ceil(a1) * 0.001))
+        a2 = math.floor(math.exp(3 * math.log(8) + 0.001)) * 1000
+        print("5-  Potencia com exp e log formatando: " + str(a2 * 0.001))
+        print("6-  Potencia com exp e log sem formatar: " + str(math.exp(3 * math.log(8))))
+        print("7-  Potencia com operador ** e formatar: ")
+        print("8-  Raiz cubica " + str(math.exp(int(1 / 3) * math.log(8))))
+        print("9-  Absoluto " + str(abs(-8)))
+        print("10- Absoluto " + str(abs(8)))
+        print("11- Convertendo para Inteiro: 5.5 " + str(math.round(5.5)))
+        print("12- Convertendo para Inteiro: 6.5 " + str(int(math.floor(6.5))))
+        print("13- Convertendo para Inteiro: 6.5 + 0.0001: " + str(math.round(6.5 + 1.0E-4)))
+        print("14- Convertendo para Inteiro: 5.45 " + str(math.round(5.45)))
+        print("15- Convertendo para Inteiro: 5.51 " + str(math.round(5.51)))
+        print("16- Convertendo para Real 87: " + str(Double.parseDouble("87")))
+        print("17- Convertendo pata Inteiro 3/4: " + str(math.round(0.75)))
+    
+
+if __name__=="__main__":
+    Aula2_Atividades.main([])
